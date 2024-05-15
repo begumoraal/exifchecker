@@ -1,28 +1,26 @@
-# 📸 EXIF Tools
+# Exif Checker
+Exif Checker is a Python script designed to extract and display Exif (Exchangeable image file format) metadata from image files. This tool provides a convenient way to view various details embedded within image files, such as camera information, GPS coordinates, and creation timestamps.
 
-EXIF Tools, görsellerin Exchangeable image file format (EXIF) verilerini incelemek için kullanılan bir Python aracıdır.
+## Features
+Extracts Exif metadata from image files.
+Displays detailed information including camera make and model, GPS coordinates, and creation timestamps.
 
-## 🌟 Özellikler
-- Görselin EXIF verilerini açma
-- Telefon marka, model ve tarih bilgilerini alma
-- GPS bilgilerini kullanarak konum adresini bulma ve harita üzerinde işaretleme
-
-## 🚀 Kullanım
-
-Proje dosyalarını bilgisayarınıza kopyalayın. Ardından terminal veya komut istemcisinde aşağıdaki komutları çalıştırarak programı başlatabilirsiniz:
-
-```bash
-python exif_tools.py
-Kullanıcıdan dosya adını girmesini isteyecek ve ardından EXIF bilgilerini inceleyecektir.
-```
-## 🛠 Gereksinimler
+# Requirements
 Python 3
 PIL (Python Imaging Library)
 gmplot
 geopy
 
-Gereksinimleri yüklemek için terminal veya komut istemcisine aşağıdaki komutları yazabilirsiniz:
-
+You can type the following commands into the terminal or command prompt to install the requirements:
 pip install Pillow
 pip install gmplot
 pip install geopy
+
+## Usage
+
+Copy the project files to your computer. Then, you can start the program by running the following commands in your terminal or command prompt:
+
+python exif_tools.py
+
+It will prompt the user to enter the file name and then examine the EXIF information.
+
