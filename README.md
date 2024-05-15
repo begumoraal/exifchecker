@@ -5,7 +5,7 @@ Exif Checker is a Python script designed to extract and display Exif (Exchangeab
 Extracts Exif metadata from image files.
 Displays detailed information including camera make and model, GPS coordinates, and creation timestamps.
 
-# Requirements
+## Requirements
 Python 3
 PIL (Python Imaging Library)
 gmplot
